@@ -8,7 +8,7 @@
     <meta name="description" content="Las Vegas Web Design and Development" />
     <meta name="keywords" content="Las Vegas, Nevada, Web Design, Web Development, HTML, PHP, CSS, JavaScript" />
     <meta property="og:title" content="Codestr - Freelance Las Vegas Web Developer" />
-    <meta property="og:type" content="website" />  
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.codestr.com">
     <meta property="og:description" content="Las Vegas Web Design and Development" />
     <meta property="og:image" content="http://www.codestr.com/images/codestr-las-vegas.jpg" />
@@ -19,7 +19,7 @@
 </head>
 
 <body>
-   
+
     <section class="section-main section-intro" id="intro">
         <div class="container">
             <div class="row">
@@ -38,17 +38,20 @@
             </div>
         </div>
     </section>
-    
+
     <section class="section-main">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="section-intro-h2 text-center">...just kidding, exist this page does not...</h2>
+                    <h2 class="section-intro-h2 text-center">
+                      ...just kidding, exist this page does not...<br /><br />
+                      <a href="http://www.codestr.com">Back to Codestr</a>
+                    </h2>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <?php echo $scripts; ?>
 
 </body>
