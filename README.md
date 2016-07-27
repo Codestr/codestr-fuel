@@ -1,8 +1,8 @@
 #Codestr
 
 * Version: 0.1
-* [Website](http://codestr.com/)
-* [Email](admin@codestr.com)
+* Website: http://codestr.com/
+* Email: admin@codestr.com
 
 ***
 
