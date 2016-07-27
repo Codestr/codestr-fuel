@@ -1,3 +1,11 @@
+#Codestr
+
+* Version: 0.1
+* [Website](http://codestr.com/)
+* [Email](admin@codestr.com)
+
+***
+
 #FuelPHP
 
 * Version: 1.8
