@@ -1,0 +1,46 @@
+/***************************************************
+Forms
+****************************************************/
+.inputs { 
+    display:block;
+    margin-bottom:15px; }
+
+label { color:#888; font-weight:300; }
+
+input {
+    width:100%;
+    padding:8px;
+    border:1px solid #ccc;
+    &:focus { border:1px solid #2980c6; } }
+
+textarea {
+    width:100%;
+    padding:8px;
+    border:1px solid #ccc;
+    &:focus { border:1px solid #2980c6; } }
+
+/***************************************************
+Buttons
+****************************************************/
+.btn {
+    color:#fff;
+    padding:8px 16px;
+    background:#2ecc71;
+    transition:all 1.4s ease-in-out;
+    &:hover { background:#2ab163; color:#fff; transition:all .4s ease-in-out;} }
+
+.btn-submit { width:100%; }
+
+.btn-large { padding:16px; }
+
+/*************************************************** Small devices (768px and up) ****************************************************/
+@media (min-width: 768px) {
+}
+
+/*************************************************** Medium devices (992px and up) ****************************************************/
+@media (min-width: 992px) {  
+}
+
+/*************************************************** Large devices (1200px and up) ****************************************************/
+@media (min-width: 1200px) {
+}

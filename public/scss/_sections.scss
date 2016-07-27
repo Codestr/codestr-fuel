@@ -1,0 +1,177 @@
+.section-main {
+  width: 100%;
+  padding: 80px 0;
+}
+/***************************************************
+Intro
+****************************************************/
+.section-intro {
+  background: url('../images/west-plains-websites.jpg') no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  text-align: center;
+  color: #efefef;
+  padding: 40px 0 0 0;
+}
+.section-intro-image {
+  margin: 100px 0 0 0;
+  width: 100%;
+  height: auto;
+  transition-duration: 3s;
+}
+.section-intro h1 {
+  color: #fff;
+  margin: 20px;
+  text-transform: uppercase;
+}
+.zoomInDown {
+  transition-duration: 3s;
+}
+.section-intro-h1 {
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 22pt;
+}
+.section-intro-h2 {
+  margin: 0 0 100px;
+  padding: 0;
+  color: #2980b9;
+}
+.social-icons {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  font-size: 22pt;
+  margin-top: -20px;
+}
+.digital-ocean {
+  display: none;
+  float: right;
+  width: 180px;
+  height: auto;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.social-icons a {
+  color: #efefef;
+  &:hover {
+    color: #2ecc71;
+  }
+}
+/***************************************************
+About
+****************************************************/
+.section-about {}
+.section-about-h1 {
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 22pt;
+}
+/***************************************************
+Services
+****************************************************/
+.section-services {
+  background: #141A25;
+  background-size: cover;
+  color: #ebebeb;
+}
+.section-services h2 {
+  color: #f8f8f8;
+  margin-top: 0;
+}
+.section-services h2 .sub-header {
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.section-services p {
+  text-shadow: 0 1px 1px #000;
+}
+.service-icon {
+  color: #2980c6;
+  background: #ebebeb;
+  padding: 8px;
+  border-radius: 360px;
+  margin-right: 8px;
+}
+.service-icon h3 {
+  font-weight: 700;
+}
+/***************************************************
+Portfolio
+****************************************************/
+.section-portfolio {
+  background: #eee;
+}
+.section-portfolio h2 {
+  margin-top: 0;
+}
+.portfolio-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.portfolio-list-item {
+  margin-bottom: 30px;
+}
+.portfolio-list-banner {
+  width: 100%;
+  height: auto;
+}
+/***************************************************
+Contact
+****************************************************/
+.section-contact {}
+.section-contact h2 {
+  margin-top: 0;
+}
+.section-contact h3 {
+  margin-top: 0;
+}
+.contact-list {
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+}
+.contact-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.contact-list h4 {
+  margin-bottom: 0;
+}
+/***************************************************
+Footer
+****************************************************/
+.section-footer {
+  background: #041a26;
+  color: #f8f8f8;
+  padding: 20px 0;
+}
+/*************************************************** Small devices (768px and up) ****************************************************/
+@media (min-width: 768px) {
+  /***************************************************
+Intro
+****************************************************/
+  .section-intro-image {
+    margin: 100px 0 0 0;
+    width: auto;
+    height: auto;
+  }
+  .section-intro h1 {
+    margin: 20px 0 100px 0;
+  }
+  .digital-ocean {
+    display: inline-block;
+  }
+}
+/*************************************************** Medium devices (992px and up) ****************************************************/
+@media (min-width: 992px) {}
+/*************************************************** Large devices (1200px and up) ****************************************************/
+@media (min-width: 1200px) {}

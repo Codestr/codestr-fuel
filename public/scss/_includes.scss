@@ -1,0 +1,121 @@
+/***************************************************
+Navigation
+****************************************************/
+nav {
+  width: 100%;
+  height: 64px;
+  background: rgba(0,0,0,.5);
+  color: #ebebeb;
+  z-index: 9999;
+}
+.nav-fixed {
+  position: fixed;
+  top: 0;
+}
+.nav-push {
+  margin-top: 64px;
+}
+.menu-main-toggle {
+  display: inline-block;
+  float: right;
+  font-size: 20pt;
+  margin-top: 14px;
+}
+.menu-main {
+  display: block;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: rgba(0,0,0,.5);
+  float: none;
+  width: 100%;
+}
+.menu-main li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 61px;
+  font-weight: 500;
+}
+.menu-main a.active {
+  color: #ebebeb;
+  border-bottom: 3px solid #2ecc71;
+}
+.menu-main a {
+  display: block;
+}
+.menu-main a:hover {
+  color: #ebebeb;
+  text-decoration: none;
+}
+.header-logo {
+  margin: 17px 0;
+}
+/*************************************************** Small devices (768px and up) ****************************************************/
+@media (min-width: 768px) {
+  /***************************************************
+Navigation
+****************************************************/
+  nav {
+    width: 100%;
+    height: 64px;
+    background: rgba(0,0,0,.5);
+    color: #ebebeb;
+    z-index: 9999;
+  }
+  .nav-fixed {
+    position: fixed;
+    top: 0;
+  }
+  .nav-push {
+    margin-top: 64px;
+  }
+  .menu-main-toggle {
+    display: none;
+  }
+  .menu-main {
+    background: none;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: auto;
+  }
+  .menu-main li {
+    background: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 61px;
+    font-weight: 500;
+  }
+  .menu-main li.active {
+    color: #ebebeb;
+    border-bottom: 3px solid #2ecc71;
+  }
+  .menu-main li.active a {
+    color: #ebebeb;
+  }
+  .menu-main a {
+    display: block;
+  }
+  .menu-main a:hover {
+    color: #ebebeb;
+    text-decoration: none;
+  }
+  .header-logo {
+    display: inline-block;
+    margin: 17px 0;
+    float: left;
+  }
+}
+/*************************************************** Medium devices (992px and up) ****************************************************/
+@media (min-width: 992px) {}
+/*************************************************** Large devices (1200px and up) ****************************************************/
+@media (min-width: 1200px) {}

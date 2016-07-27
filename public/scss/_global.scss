@@ -1,0 +1,23 @@
+/***************************************************
+Global Styles
+****************************************************/
+html,body { 
+    font-family:Asap;
+    font-size:15px;
+    color:#696c7f; }
+
+hr .fading { display:block; border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); margin: 50px 0px 5px; }
+
+a i { margin:0 8px 0 0; }
+
+/*************************************************** Small devices (768px and up) ****************************************************/
+@media (min-width: 768px) {
+}
+
+/*************************************************** Medium devices (992px and up) ****************************************************/
+@media (min-width: 992px) {  
+}
+
+/*************************************************** Large devices (1200px and up) ****************************************************/
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,84 @@
+[Tue Jul 26 21:15:31.135423 2016] [access_compat:error] [pid 42366] [client 127.0.0.1:54716] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:15:32.117466 2016] [access_compat:error] [pid 42366] [client 127.0.0.1:54716] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:15:53.842411 2016] [access_compat:error] [pid 42474] [client 127.0.0.1:54719] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:15:55.554604 2016] [access_compat:error] [pid 42474] [client 127.0.0.1:54719] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:16:19.829610 2016] [access_compat:error] [pid 42571] [client 127.0.0.1:54724] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:19:41.751674 2016] [access_compat:error] [pid 42576] [client 127.0.0.1:54827] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:22:12.799882 2016] [access_compat:error] [pid 42747] [client 127.0.0.1:54874] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:22:13.620335 2016] [access_compat:error] [pid 42747] [client 127.0.0.1:54874] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:22:58.027200 2016] [access_compat:error] [pid 42860] [client 127.0.0.1:54879] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:22:58.970699 2016] [access_compat:error] [pid 42860] [client 127.0.0.1:54879] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:22:59.842593 2016] [access_compat:error] [pid 42860] [client 127.0.0.1:54879] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:22:59.967418 2016] [access_compat:error] [pid 42860] [client 127.0.0.1:54879] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:23:00.634222 2016] [access_compat:error] [pid 42860] [client 127.0.0.1:54879] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:23:00.741125 2016] [access_compat:error] [pid 42860] [client 127.0.0.1:54879] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:23:01.185554 2016] [access_compat:error] [pid 42860] [client 127.0.0.1:54879] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:23:01.288707 2016] [access_compat:error] [pid 42860] [client 127.0.0.1:54879] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:23:50.748937 2016] [access_compat:error] [pid 42969] [client 127.0.0.1:54886] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:23:50.956127 2016] [access_compat:error] [pid 42969] [client 127.0.0.1:54886] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:23:51.416988 2016] [access_compat:error] [pid 42969] [client 127.0.0.1:54886] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:23:51.600526 2016] [access_compat:error] [pid 42969] [client 127.0.0.1:54886] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:23:52.063571 2016] [access_compat:error] [pid 42969] [client 127.0.0.1:54886] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:23:52.191027 2016] [access_compat:error] [pid 42969] [client 127.0.0.1:54886] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:24:25.750730 2016] [access_compat:error] [pid 43077] [client 127.0.0.1:54894] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:24:25.934366 2016] [access_compat:error] [pid 43077] [client 127.0.0.1:54894] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:24:26.490077 2016] [access_compat:error] [pid 43077] [client 127.0.0.1:54894] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:24:26.664782 2016] [access_compat:error] [pid 43077] [client 127.0.0.1:54894] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:26:25.641762 2016] [access_compat:error] [pid 43375] [client 127.0.0.1:54930] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:26:25.826148 2016] [access_compat:error] [pid 43375] [client 127.0.0.1:54930] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:26:26.409056 2016] [access_compat:error] [pid 43375] [client 127.0.0.1:54930] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:26:26.581418 2016] [access_compat:error] [pid 43375] [client 127.0.0.1:54930] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:27:44.436951 2016] [access_compat:error] [pid 43573] [client 127.0.0.1:54962] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:27:44.620640 2016] [access_compat:error] [pid 43573] [client 127.0.0.1:54962] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:27:45.330890 2016] [access_compat:error] [pid 43573] [client 127.0.0.1:54962] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:27:45.493815 2016] [access_compat:error] [pid 43573] [client 127.0.0.1:54962] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:27:45.964281 2016] [access_compat:error] [pid 43573] [client 127.0.0.1:54962] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:27:46.092290 2016] [access_compat:error] [pid 43573] [client 127.0.0.1:54962] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:28:44.704355 2016] [access_compat:error] [pid 43579] [client 127.0.0.1:54969] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:28:44.905019 2016] [access_compat:error] [pid 43579] [client 127.0.0.1:54969] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/fuel/public
+[Tue Jul 26 21:29:22.707868 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:22.918195 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/fuel/public
+[Tue Jul 26 21:29:23.800189 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:23.933759 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/fuel/public
+[Tue Jul 26 21:29:24.467540 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:24.584526 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/fuel/public
+[Tue Jul 26 21:29:25.442456 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:25.541777 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/fuel/public
+[Tue Jul 26 21:29:28.348626 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:28.451662 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:29:29.658773 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:29.763420 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:29:30.435940 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:30.540943 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:29:31.040955 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:31.143904 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:29:32.036945 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:32.145089 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:29:32.713722 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:32.824741 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:29:33.561643 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:33.666155 2016] [access_compat:error] [pid 43675] [client 127.0.0.1:54972] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:29:57.603454 2016] [access_compat:error] [pid 43771] [client 127.0.0.1:54978] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:29:57.805019 2016] [access_compat:error] [pid 43771] [client 127.0.0.1:54978] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:30:59.854625 2016] [access_compat:error] [pid 43882] [client 127.0.0.1:55009] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:31:00.040215 2016] [access_compat:error] [pid 43882] [client 127.0.0.1:55009] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:31:23.238219 2016] [access_compat:error] [pid 43984] [client 127.0.0.1:55013] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:31:23.439501 2016] [access_compat:error] [pid 43984] [client 127.0.0.1:55013] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:32:00.516749 2016] [access_compat:error] [pid 44080] [client 127.0.0.1:55016] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:32:00.694018 2016] [access_compat:error] [pid 44080] [client 127.0.0.1:55016] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:32:01.420454 2016] [access_compat:error] [pid 44080] [client 127.0.0.1:55016] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:32:01.550269 2016] [access_compat:error] [pid 44080] [client 127.0.0.1:55016] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:32:01.980892 2016] [access_compat:error] [pid 44080] [client 127.0.0.1:55016] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:32:02.101670 2016] [access_compat:error] [pid 44080] [client 127.0.0.1:55016] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:34:23.469337 2016] [access_compat:error] [pid 44175] [client 127.0.0.1:55066] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:34:23.668898 2016] [access_compat:error] [pid 44175] [client 127.0.0.1:55066] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:34:24.279205 2016] [access_compat:error] [pid 44175] [client 127.0.0.1:55066] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:34:24.455853 2016] [access_compat:error] [pid 44175] [client 127.0.0.1:55066] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:35:42.619000 2016] [access_compat:error] [pid 44502] [client 127.0.0.1:55075] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:35:42.813628 2016] [access_compat:error] [pid 44502] [client 127.0.0.1:55075] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:35:43.571095 2016] [access_compat:error] [pid 44502] [client 127.0.0.1:55075] AH01797: client denied by server configuration: /www/codestr/fuel/public
+[Tue Jul 26 21:35:43.735170 2016] [access_compat:error] [pid 44502] [client 127.0.0.1:55075] AH01797: client denied by server configuration: /www/codestr/fuel/public, referer: http://codestr.dev/
+[Tue Jul 26 21:38:26.350656 2016] [:error] [pid 44776] [client 127.0.0.1:55099] PHP Fatal error:  Uncaught Fuel\\Core\\FuelException: Unable to create or write to the log file. Please check the permissions on /www/codestr/fuel/app/logs/. (mkdir(): Permission denied) in /www/codestr/fuel/core/classes/log.php:106\nStack trace:\n#0 /www/codestr/fuel/core/classes/log.php(48): Fuel\\Core\\Log::initialize()\n#1 [internal function]: Fuel\\Core\\Log::_init()\n#2 /www/codestr/fuel/core/classes/autoloader.php(377): call_user_func('Log::_init')\n#3 /www/codestr/fuel/core/classes/autoloader.php(249): Fuel\\Core\\Autoloader::init_class('Log')\n#4 [internal function]: Fuel\\Core\\Autoloader::load('Log')\n#5 /www/codestr/fuel/core/base.php(108): spl_autoload_call('Log')\n#6 /www/codestr/fuel/core/classes/errorhandler.php(126): logger(400, 'Error - The req...')\n#7 /www/codestr/fuel/core/bootstrap.php(87): Fuel\\Core\\Errorhandler::exception_handler(Object(Fuel\\Core\\FuelException))\n#8 [internal function]: {closure}(Object(Fuel\\Core\\FuelException))\n#9 {main}\n  thrown in /www/codestr/fuel/core/classes/log.php on line 106
+[Tue Jul 26 21:39:30.222094 2016] [:error] [pid 44770] [client 127.0.0.1:55106] PHP Fatal error:  Method Fuel\\Core\\View::__toString() must not throw an exception, caught Fuel\\Core\\FuelException: Unable to create or write to the log file. Please check the permissions on /www/codestr/fuel/app/logs/. (mkdir(): Permission denied) in /www/codestr/fuel/core/classes/response.php on line 0
+[Tue Jul 26 21:39:31.132262 2016] [:error] [pid 44776] [client 127.0.0.1:55107] PHP Fatal error:  Method Fuel\\Core\\View::__toString() must not throw an exception, caught Fuel\\Core\\FuelException: Unable to create or write to the log file. Please check the permissions on /www/codestr/fuel/app/logs/. (mkdir(): Permission denied) in /www/codestr/fuel/core/classes/response.php on line 0
+[Tue Jul 26 21:40:41.936862 2016] [:error] [pid 44770] [client 127.0.0.1:55115] PHP Fatal error:  Method Fuel\\Core\\View::__toString() must not throw an exception, caught Fuel\\Core\\FuelException: Unable to create or write to the log file. Please check the permissions on /www/codestr/fuel/app/logs/. (mkdir(): Permission denied) in /www/codestr/fuel/core/classes/response.php on line 0
