@@ -1,33 +1,40 @@
 @import url(http://fonts.googleapis.com/css?family=Abel);
 @import url(http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic);
-
 /***************************************************
 Links
 ****************************************************/
-a, a:visited, a:active { 
-    color:#2ecc71; 
-    text-decoration:none;
-    transition:  all 1s ease-in-out;
-    &:hover { color:#2ab163; }
-    &:focus { color:#2ab163; }}
-
+a,
+a:active,
+a:visited {
+  color: #2ecc71;
+  text-decoration: none;
+  transition: all 1s ease-in-out;
+  &:hover {
+    color: #2ab163;
+  }
+  &:focus {
+    color: #2ab163;
+  }
+}
 /***************************************************
 Typography
 ****************************************************/
-h1,h2,h3,h4,h5,h6 { 
-    font-family:Abel; 
-    color:#2980c6; }
-
-h1, h2 { margin-bottom:20px; }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Abel;
+  color: #2980c6;
+}
+h1,
+h2 {
+  margin-bottom: 20px;
+}
 /*************************************************** Small devices (768px and up) ****************************************************/
-@media (min-width: 768px) {
-}
-
+@media (min-width: 768px) {}
 /*************************************************** Medium devices (992px and up) ****************************************************/
-@media (min-width: 992px) {  
-}
-
+@media (min-width: 992px) {}
 /*************************************************** Large devices (1200px and up) ****************************************************/
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
