@@ -1,66 +1,74 @@
-/***************************************************
-Spacial Modifiers
-****************************************************/
+/*--------[ Spacers ]---------------------------------------------------------*/
 .spcr-20 { margin-top:20px; }
 .spcr-40 { margin-top:40px; }
 .spcr-60 { margin-top:60px; }
 
-/***************************************************
-Dimension Modifiers
-****************************************************/
-.fw { width:100%; height:auto; }
-.aw { width:auto; height:auto; }
+/*--------[ Size Modifiers ]--------------------------------------------------*/
+.fw {
+  width: 100%;
+  height: auto;
+}
+.aw {
+  width: auto;
+  height: auto;
+}
 
-/***************************************************
-Visibility Modifiers
-****************************************************/
-.hid { visibility:hidden; }
-.invisible { visibility:hidden; }
-.hid-mobile { visibility:hidden; }
-.hid-tablet { visibility:hidden; }
-.hid-desktop { visibility:hidden; }
+/*--------[ Visibility Modifiers ]--------------------------------------------*/
+.hid { visibility: hidden; }
+.invisible { visibility: hidden; }
+.hid-mobile { visibility: hidden; }
+.hid-tablet { visibility: hidden; }
+.hid-desktop { visibility: hidden; }
 
-/***************************************************
-Layout Blocks
-****************************************************/
-.block-home-services { 
-    background:#11151F;
-    border:1px solid #01090D;
-    border-radius:4px;
-    margin-bottom:20px;
-    padding:5px 20px;
-    transition:all .6s ease-in-out; }
+/*--------[ Layout Blocks ]---------------------------------------------------*/
+.block-home-services {
+  background: #11151F;
+  border: 1px solid #01090D;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+  transition: all .6s ease-in-out;
+}
 
-.block-home-services:hover { background:#4D5A50; }
+.block-home-services:hover {
+  background:#4D5A50;
+}
 
-.block-home-services h3 { font-weight:500; transition:all .6s ease-in-out; }
-.block-home-services:hover h3 { 
-    color:#11151F;
-    font-weight:900;
-    transition-duration:.6s;
-    margin-left:8px; }
+.block-home-services h3 {
+  font-weight: 500;
+  transition: all .6s ease-in-out;
+}
+.block-home-services:hover h3 {
+  color: #11151F;
+  font-weight: 900;
+  transition-duration: .6s;
+  margin-left: 8px;
+}
 
 .block-home-services:hover i, {
-    color:#11151F;
-    transition:all .4s ease-in-out; }
+  color: #11151F;
+  transition: all .4s ease-in-out;
+}
 
-/*************************************************** Small devices (768px and up) ****************************************************/
+/*------------------------------------------------------------------------------
+| Small Screens, 768px and up
+------------------------------------------------------------------------------*/
 @media (min-width: 768px) {
-/***************************************************
-Visibility Modifiers
-****************************************************/
-.hid-mobile { visibility:visible; }
+  /*--------[ Visibility Modifiers ]------------------------------------------*/
+  .hid-mobile { visibility: visible; }
 }
 
-/*************************************************** Medium devices (992px and up) ****************************************************/
+/*------------------------------------------------------------------------------
+| Medium Screens, 992px and up
+------------------------------------------------------------------------------*/
 @media (min-width: 992px) {
-/***************************************************
-Visibility Modifiers
-****************************************************/
-.hid-tablet { visibility:visible; }
-.hid-desktop { visibility:hidden; }
+  /*--------[ Visibility Modifiers ]------------------------------------------*/
+  .hid-tablet { visibility: visible; }
+  .hid-desktop { visibility: hidden; }
 }
 
-/*************************************************** Large devices (1200px and up) ****************************************************/
+/*------------------------------------------------------------------------------
+| Large Screens, 1200px and up
+------------------------------------------------------------------------------*/
 @media (min-width: 1200px) {
 }

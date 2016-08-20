@@ -1,15 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Abel);
 @import url(http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic);
-/***************************************************
-Links
-****************************************************/
-/* line 7, ../scss/_typo.scss */
+/*--------[ Links ]-----------------------------------------------------------*/
+/* line 5, ../scss/_typo.scss */
 a, a:visited, a:active {
   color: #2ecc71;
   text-decoration: none;
   transition: all 1s ease-in-out;
 }
-/* line 11, ../scss/_typo.scss */
+/* line 9, ../scss/_typo.scss */
 a:hover, a:visited:hover, a:active:hover {
   color: #2ab163;
 }
@@ -18,34 +16,36 @@ a:focus, a:visited:focus, a:active:focus {
   color: #2ab163;
 }
 
-/***************************************************
-Typography
-****************************************************/
-/* line 17, ../scss/_typo.scss */
+/*--------[ Typography ]------------------------------------------------------*/
+/* line 18, ../scss/_typo.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: Abel;
   color: #2980c6;
 }
 
-/* line 21, ../scss/_typo.scss */
+/* line 23, ../scss/_typo.scss */
 h1, h2 {
   margin-bottom: 20px;
 }
 
-/*************************************************** Small devices (768px and up) ****************************************************/
-/*************************************************** Medium devices (992px and up) ****************************************************/
-/*************************************************** Large devices (1200px and up) ****************************************************/
-/***************************************************
-Global Styles
-****************************************************/
-/* line 4, ../scss/_global.scss */
+/*------------------------------------------------------------------------------
+| Small Screens, 768px and up
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+| Medium Screens, 992px and up
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+| Large Screens, 1200px and up
+------------------------------------------------------------------------------*/
+/*--------[ Global Styles ]---------------------------------------------------*/
+/* line 2, ../scss/_global.scss */
 html, body {
   font-family: Asap;
-  font-size: 15px;
+  font-size: 16px;
   color: #696c7f;
 }
 
-/* line 9, ../scss/_global.scss */
+/* line 8, ../scss/_global.scss */
 hr .fading {
   display: block;
   border: 0;
@@ -54,50 +54,50 @@ hr .fading {
   margin: 50px 0px 5px;
 }
 
-/* line 11, ../scss/_global.scss */
+/* line 16, ../scss/_global.scss */
 a i {
   margin: 0 8px 0 0;
 }
 
-/*************************************************** Small devices (768px and up) ****************************************************/
-/*************************************************** Medium devices (992px and up) ****************************************************/
-/*************************************************** Large devices (1200px and up) ****************************************************/
-/***************************************************
-Spacial Modifiers
-****************************************************/
-/* line 4, ../scss/_layout.scss */
+/*------------------------------------------------------------------------------
+| Small Screens, 768px and up
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+| Medium Screens, 992px and up
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+| Large Screens, 1200px and up
+------------------------------------------------------------------------------*/
+/*--------[ Spacers ]---------------------------------------------------------*/
+/* line 2, ../scss/_layout.scss */
 .spcr-20 {
   margin-top: 20px;
 }
 
-/* line 5, ../scss/_layout.scss */
+/* line 3, ../scss/_layout.scss */
 .spcr-40 {
   margin-top: 40px;
 }
 
-/* line 6, ../scss/_layout.scss */
+/* line 4, ../scss/_layout.scss */
 .spcr-60 {
   margin-top: 60px;
 }
 
-/***************************************************
-Dimension Modifiers
-****************************************************/
-/* line 11, ../scss/_layout.scss */
+/*--------[ Size Modifiers ]--------------------------------------------------*/
+/* line 7, ../scss/_layout.scss */
 .fw {
   width: 100%;
   height: auto;
 }
 
-/* line 12, ../scss/_layout.scss */
+/* line 11, ../scss/_layout.scss */
 .aw {
   width: auto;
   height: auto;
 }
 
-/***************************************************
-Visibility Modifiers
-****************************************************/
+/*--------[ Visibility Modifiers ]--------------------------------------------*/
 /* line 17, ../scss/_layout.scss */
 .hid {
   visibility: hidden;
@@ -123,10 +123,8 @@ Visibility Modifiers
   visibility: hidden;
 }
 
-/***************************************************
-Layout Blocks
-****************************************************/
-/* line 26, ../scss/_layout.scss */
+/*--------[ Layout Blocks ]---------------------------------------------------*/
+/* line 24, ../scss/_layout.scss */
 .block-home-services {
   background: #11151F;
   border: 1px solid #01090D;
@@ -136,18 +134,18 @@ Layout Blocks
   transition: all .6s ease-in-out;
 }
 
-/* line 34, ../scss/_layout.scss */
+/* line 33, ../scss/_layout.scss */
 .block-home-services:hover {
   background: #4D5A50;
 }
 
-/* line 36, ../scss/_layout.scss */
+/* line 37, ../scss/_layout.scss */
 .block-home-services h3 {
   font-weight: 500;
   transition: all .6s ease-in-out;
 }
 
-/* line 37, ../scss/_layout.scss */
+/* line 41, ../scss/_layout.scss */
 .block-home-services:hover h3 {
   color: #11151F;
   font-weight: 900;
@@ -155,42 +153,42 @@ Layout Blocks
   margin-left: 8px;
 }
 
-/* line 43, ../scss/_layout.scss */
+/* line 48, ../scss/_layout.scss */
 .block-home-services:hover i {
   color: #11151F;
   transition: all .4s ease-in-out;
 }
 
-/*************************************************** Small devices (768px and up) ****************************************************/
+/*------------------------------------------------------------------------------
+| Small Screens, 768px and up
+------------------------------------------------------------------------------*/
 @media (min-width: 768px) {
-  /***************************************************
-  Visibility Modifiers
-  ****************************************************/
-  /* line 52, ../scss/_layout.scss */
+  /*--------[ Visibility Modifiers ]------------------------------------------*/
+  /* line 58, ../scss/_layout.scss */
   .hid-mobile {
     visibility: visible;
   }
 }
-/*************************************************** Medium devices (992px and up) ****************************************************/
+/*------------------------------------------------------------------------------
+| Medium Screens, 992px and up
+------------------------------------------------------------------------------*/
 @media (min-width: 992px) {
-  /***************************************************
-  Visibility Modifiers
-  ****************************************************/
-  /* line 60, ../scss/_layout.scss */
+  /*--------[ Visibility Modifiers ]------------------------------------------*/
+  /* line 66, ../scss/_layout.scss */
   .hid-tablet {
     visibility: visible;
   }
 
-  /* line 61, ../scss/_layout.scss */
+  /* line 67, ../scss/_layout.scss */
   .hid-desktop {
     visibility: hidden;
   }
 }
-/*************************************************** Large devices (1200px and up) ****************************************************/
-/***************************************************
-Navigation
-****************************************************/
-/* line 4, ../scss/_includes.scss */
+/*------------------------------------------------------------------------------
+| Large Screens, 1200px and up
+------------------------------------------------------------------------------*/
+/*--------[ Navigation ]------------------------------------------------------*/
+/* line 2, ../scss/_includes.scss */
 nav {
   width: 100%;
   height: 64px;
@@ -199,18 +197,18 @@ nav {
   z-index: 9999;
 }
 
-/* line 11, ../scss/_includes.scss */
+/* line 9, ../scss/_includes.scss */
 .nav-fixed {
   position: fixed;
   top: 0;
 }
 
-/* line 15, ../scss/_includes.scss */
+/* line 13, ../scss/_includes.scss */
 .nav-push {
   margin-top: 64px;
 }
 
-/* line 18, ../scss/_includes.scss */
+/* line 16, ../scss/_includes.scss */
 .menu-main-toggle {
   display: inline-block;
   float: right;
@@ -218,7 +216,7 @@ nav {
   margin-top: 14px;
 }
 
-/* line 24, ../scss/_includes.scss */
+/* line 22, ../scss/_includes.scss */
 .menu-main {
   display: block;
   display: none;
@@ -230,7 +228,7 @@ nav {
   width: 100%;
 }
 
-/* line 34, ../scss/_includes.scss */
+/* line 32, ../scss/_includes.scss */
 .menu-main li {
   margin: 0;
   padding: 0;
@@ -241,34 +239,34 @@ nav {
   font-weight: 500;
 }
 
-/* line 43, ../scss/_includes.scss */
+/* line 41, ../scss/_includes.scss */
 .menu-main a.active {
   color: #ebebeb;
   border-bottom: 3px solid #2ecc71;
 }
 
-/* line 47, ../scss/_includes.scss */
+/* line 45, ../scss/_includes.scss */
 .menu-main a {
   display: block;
 }
 
-/* line 50, ../scss/_includes.scss */
+/* line 48, ../scss/_includes.scss */
 .menu-main a:hover {
   color: #ebebeb;
   text-decoration: none;
 }
 
-/* line 54, ../scss/_includes.scss */
+/* line 52, ../scss/_includes.scss */
 .header-logo {
   margin: 17px 0;
 }
 
-/*************************************************** Small devices (768px and up) ****************************************************/
+/*------------------------------------------------------------------------------
+| Small Screens, 768px and up
+------------------------------------------------------------------------------*/
 @media (min-width: 768px) {
-  /***************************************************
-Navigation
-****************************************************/
-  /* line 62, ../scss/_includes.scss */
+  /*--------[ Navigation ]------------------------------------------------------*/
+  /* line 61, ../scss/_includes.scss */
   nav {
     width: 100%;
     height: 64px;
@@ -277,23 +275,23 @@ Navigation
     z-index: 9999;
   }
 
-  /* line 69, ../scss/_includes.scss */
+  /* line 68, ../scss/_includes.scss */
   .nav-fixed {
     position: fixed;
     top: 0;
   }
 
-  /* line 73, ../scss/_includes.scss */
+  /* line 72, ../scss/_includes.scss */
   .nav-push {
     margin-top: 64px;
   }
 
-  /* line 76, ../scss/_includes.scss */
+  /* line 75, ../scss/_includes.scss */
   .menu-main-toggle {
     display: none;
   }
 
-  /* line 79, ../scss/_includes.scss */
+  /* line 78, ../scss/_includes.scss */
   .menu-main {
     background: none;
     display: inline-block;
@@ -304,7 +302,7 @@ Navigation
     width: auto;
   }
 
-  /* line 88, ../scss/_includes.scss */
+  /* line 87, ../scss/_includes.scss */
   .menu-main li {
     background: none;
     margin: 0;
@@ -316,37 +314,41 @@ Navigation
     font-weight: 500;
   }
 
-  /* line 98, ../scss/_includes.scss */
+  /* line 97, ../scss/_includes.scss */
   .menu-main li.active {
     color: #ebebeb;
     border-bottom: 3px solid #2ecc71;
   }
 
-  /* line 102, ../scss/_includes.scss */
+  /* line 101, ../scss/_includes.scss */
   .menu-main li.active a {
     color: #ebebeb;
   }
 
-  /* line 105, ../scss/_includes.scss */
+  /* line 104, ../scss/_includes.scss */
   .menu-main a {
     display: block;
   }
 
-  /* line 108, ../scss/_includes.scss */
+  /* line 107, ../scss/_includes.scss */
   .menu-main a:hover {
     color: #ebebeb;
     text-decoration: none;
   }
 
-  /* line 112, ../scss/_includes.scss */
+  /* line 111, ../scss/_includes.scss */
   .header-logo {
     display: inline-block;
     margin: 17px 0;
     float: left;
   }
 }
-/*************************************************** Medium devices (992px and up) ****************************************************/
-/*************************************************** Large devices (1200px and up) ****************************************************/
+/*------------------------------------------------------------------------------
+| Medium Screens, 992px and up
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+| Large Screens, 1200px and up
+------------------------------------------------------------------------------*/
 /* line 1, ../scss/_sections.scss */
 .section-main {
   width: 100%;
@@ -435,33 +437,29 @@ Intro
   color: #2ecc71;
 }
 
-/***************************************************
-About
-****************************************************/
-/* line 70, ../scss/_sections.scss */
+/*--------[ About ]-----------------------------------------------------------*/
+/* line 69, ../scss/_sections.scss */
 .section-about-h1 {
   margin: 0 0 20px;
   padding: 0;
   font-size: 22pt;
 }
 
-/***************************************************
-Services
-****************************************************/
-/* line 78, ../scss/_sections.scss */
+/*--------[ Services ]--------------------------------------------------------*/
+/* line 76, ../scss/_sections.scss */
 .section-services {
-  background: #141A25;
+  background: url("../images/west-plains-web-development.jpg");
   background-size: cover;
   color: #ebebeb;
 }
 
-/* line 83, ../scss/_sections.scss */
+/* line 81, ../scss/_sections.scss */
 .section-services h2 {
   color: #f8f8f8;
   margin-top: 0;
 }
 
-/* line 87, ../scss/_sections.scss */
+/* line 85, ../scss/_sections.scss */
 .section-services h2 .sub-header {
   display: block;
   font-size: 18px;
@@ -469,12 +467,12 @@ Services
   text-transform: uppercase;
 }
 
-/* line 93, ../scss/_sections.scss */
+/* line 91, ../scss/_sections.scss */
 .section-services p {
   text-shadow: 0 1px 1px #000;
 }
 
-/* line 96, ../scss/_sections.scss */
+/* line 94, ../scss/_sections.scss */
 .service-icon {
   color: #2980c6;
   background: #ebebeb;
@@ -483,171 +481,176 @@ Services
   margin-right: 8px;
 }
 
-/* line 103, ../scss/_sections.scss */
+/* line 101, ../scss/_sections.scss */
 .service-icon h3 {
   font-weight: 700;
 }
 
-/***************************************************
-Portfolio
-****************************************************/
-/* line 109, ../scss/_sections.scss */
+/*--------[ Portfolio ]-------------------------------------------------------*/
+/* line 106, ../scss/_sections.scss */
 .section-portfolio {
   background: #eee;
 }
 
-/* line 112, ../scss/_sections.scss */
+/* line 109, ../scss/_sections.scss */
 .section-portfolio h2 {
   margin-top: 0;
 }
 
-/* line 115, ../scss/_sections.scss */
+/* line 112, ../scss/_sections.scss */
 .portfolio-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-/* line 120, ../scss/_sections.scss */
+/* line 117, ../scss/_sections.scss */
 .portfolio-list-item {
   margin-bottom: 30px;
 }
 
-/* line 123, ../scss/_sections.scss */
+/* line 120, ../scss/_sections.scss */
 .portfolio-list-banner {
   width: 100%;
   height: auto;
 }
 
-/***************************************************
-Contact
-****************************************************/
-/* line 131, ../scss/_sections.scss */
+/*--------[ Contact ]---------------------------------------------------------*/
+/* line 127, ../scss/_sections.scss */
 .section-contact h2 {
   margin-top: 0;
 }
 
-/* line 134, ../scss/_sections.scss */
+/* line 130, ../scss/_sections.scss */
 .section-contact h3 {
   margin-top: 0;
 }
 
-/* line 137, ../scss/_sections.scss */
+/* line 133, ../scss/_sections.scss */
 .contact-list {
   list-style: none;
   margin: 20px 0 0;
   padding: 0;
 }
 
-/* line 142, ../scss/_sections.scss */
+/* line 138, ../scss/_sections.scss */
 .contact-list li {
   margin-bottom: 10px;
   border-bottom: 1px solid #ddd;
 }
 
-/* line 146, ../scss/_sections.scss */
+/* line 142, ../scss/_sections.scss */
 .contact-list h4 {
   margin-bottom: 0;
 }
 
-/***************************************************
-Footer
-****************************************************/
-/* line 152, ../scss/_sections.scss */
+/*--------[ Footer ]----------------------------------------------------------*/
+/* line 147, ../scss/_sections.scss */
 .section-footer {
   background: #041a26;
   color: #f8f8f8;
-  padding: 20px 0;
+  padding: 40px 0;
 }
 
-/*************************************************** Small devices (768px and up) ****************************************************/
+/*------------------------------------------------------------------------------
+| Small Screens, 768px and up
+------------------------------------------------------------------------------*/
 @media (min-width: 768px) {
-  /***************************************************
-Intro
-****************************************************/
-  /* line 162, ../scss/_sections.scss */
+  /*--------[ Intro ]-----------------------------------------------------------*/
+  /* line 158, ../scss/_sections.scss */
   .section-intro-image {
     margin: 100px 0 0 0;
     width: auto;
     height: auto;
   }
 
-  /* line 167, ../scss/_sections.scss */
+  /* line 163, ../scss/_sections.scss */
   .section-intro h1 {
     margin: 20px 0 100px 0;
   }
 
-  /* line 170, ../scss/_sections.scss */
+  /* line 166, ../scss/_sections.scss */
   .digital-ocean {
     display: inline-block;
   }
 }
-/*************************************************** Medium devices (992px and up) ****************************************************/
-/*************************************************** Large devices (1200px and up) ****************************************************/
-/***************************************************
-Forms
-****************************************************/
-/* line 4, ../scss/_forms.scss */
+/*------------------------------------------------------------------------------
+| Medium Screens, 992px and up
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+| Large Screens, 1200px and up
+------------------------------------------------------------------------------*/
+/*--------[ Form Elements ]---------------------------------------------------*/
+/* line 2, ../scss/_forms.scss */
 .inputs {
   display: block;
   margin-bottom: 15px;
 }
 
-/* line 8, ../scss/_forms.scss */
+/* line 7, ../scss/_forms.scss */
 label {
   color: #888;
   font-weight: 300;
 }
 
-/* line 10, ../scss/_forms.scss */
+/* line 12, ../scss/_forms.scss */
 input {
-  width: 100%;
-  padding: 8px;
   border: 1px solid #ccc;
+  padding: 8px;
+  width: 100%;
 }
-/* line 14, ../scss/_forms.scss */
+/* line 16, ../scss/_forms.scss */
 input:focus {
   border: 1px solid #2980c6;
 }
 
-/* line 16, ../scss/_forms.scss */
+/* line 21, ../scss/_forms.scss */
 textarea {
   width: 100%;
   padding: 8px;
   border: 1px solid #ccc;
 }
-/* line 20, ../scss/_forms.scss */
+/* line 25, ../scss/_forms.scss */
 textarea:focus {
   border: 1px solid #2980c6;
 }
 
-/***************************************************
-Buttons
-****************************************************/
-/* line 25, ../scss/_forms.scss */
+/*--------[ Buttons ]---------------------------------------------------------*/
+/* line 31, ../scss/_forms.scss */
 .btn {
   color: #fff;
   padding: 8px 16px;
   background: #2ecc71;
   transition: all 1.4s ease-in-out;
 }
-/* line 30, ../scss/_forms.scss */
+/* line 36, ../scss/_forms.scss */
 .btn:hover {
   background: #2ab163;
   color: #fff;
   transition: all .4s ease-in-out;
 }
 
-/* line 32, ../scss/_forms.scss */
+/* line 43, ../scss/_forms.scss */
 .btn-submit {
   width: 100%;
 }
 
-/* line 34, ../scss/_forms.scss */
+/* line 47, ../scss/_forms.scss */
 .btn-large {
   padding: 16px;
 }
 
-/*************************************************** Small devices (768px and up) ****************************************************/
-/*************************************************** Medium devices (992px and up) ****************************************************/
-/*************************************************** Large devices (1200px and up) ****************************************************/
+/* line 51, ../scss/_forms.scss */
+.btn.fixed {
+  width: 300px;
+}
+
+/*------------------------------------------------------------------------------
+| Small Screens, 768px and up
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+| Medium Screens, 992px and up
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+| Large Screens, 1200px and up
+------------------------------------------------------------------------------*/

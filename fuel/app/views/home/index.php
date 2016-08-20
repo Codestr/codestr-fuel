@@ -66,7 +66,7 @@
             </div>
             <div class="row spcr-20">
                 <div class="col-xs-12 text-center">
-                    <a class="btn spcr-20" href="#"><i class="fa fa-info-circle"></i> Learn More About Us</a>
+                    <a class="btn btn-large fixed spcr-20" href="#"><i class="fa fa-info-circle"></i> Learn More About Us</a>
                 </div>
             </div>
         </div>
@@ -122,7 +122,7 @@
 
             <div class="row spcr-40">
                 <div class="col-xs-12 text-center">
-                    <a class="btn" href="#">View all of our services</a>
+                    <a class="btn btn-large fixed" href="#">View all of our services</a>
                 </div>
             </div>
         </div>
